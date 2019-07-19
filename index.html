@@ -4,13 +4,30 @@
 
 <head>
   <meta charset="utf-8" />
-  <title>jsstart</title>
+  <title>Guess Coin</title>
+  <link rel="stylesheet" type="text/css" href="guesscoin.css">
+  <link rel="shortcut icon" type="image/png" href="http://www.simpleimageresizer.com/_uploads/photos/cceec820/kisspng-pixel-art-clip-art-mario-coin-5b13914d5a07e9.2163567715280090373688_50x50.png">
 </head>
 
 <body bgcolor="white">
-  <script src="guessingGameExternal1.js">
-  </script>
-  <button onclick="document.location.reload(true)">restart?</button>
+
+  <script src="guesscoin.js" charset="utf-8"></script>
+
+  <h1 id="title">Guess Coin</h1>
+
+  <div id="guessesRemaining"></div>
+
+  <p> </p>
+
+  <form id="gameForm">
+    <input type="text" id="guessInput" min="0" max="100" placeholder="Enter a number!">
+    <input type="button" id="guessEnter" value="&nbsp;">
+  </form>
+
+  <p> </p>
+
+  <div id="guessStatus"></div>
+
 </body>
 
 </html>

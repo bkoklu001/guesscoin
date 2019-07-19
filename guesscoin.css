@@ -1,0 +1,19 @@
+#gameForm{
+  display: flex;
+  justify-content: center;
+}
+
+#guessStatus{
+  display: flex;
+  justify-content: center;
+}
+
+#title{
+  display: flex;
+  justify-content: center;
+}
+
+#guessesRemaining{
+  display: flex;
+  justify-content: center;
+}
