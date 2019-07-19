@@ -11,9 +11,22 @@
 #title{
   display: flex;
   justify-content: center;
+  font-family: "Courier New", Courier, monospace;
+  color: #FFD700;
 }
 
 #guessesRemaining{
+  display: flex;
+  justify-content: center;
+  font-family:'Palatino Linotype';
+}
+
+#guesscoinimg1{
+  display: flex;
+  justify-content: center;
+}
+
+#guesscoinimg2{
   display: flex;
   justify-content: center;
 }
